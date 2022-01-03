@@ -18,8 +18,8 @@ def acc_type(val):
 
 
 def create_caption(user):
-    caption_msg = f'''📛*Aynte Peru*📛: {es(user.full_name,version=2)} \n😁*Followers*😁: {es(str(user.followers),version=2)} \n🤩*Following*🤩: {es(str(user.followees),version=2)}\
-        \n🧐*Account Type*🧐: {acc_type(user.is_private)} \n\nMathy mone eduthond pokko ini varumbo Chocolate vaangiyitt varane 🍫😇 Eee bot njangalude swantham @darkprince163 & @the_hsk'''
+    caption_msg = f'''📛*Name*📛: {es(user.full_name,version=2)} \n😁*Followers*😁: {es(str(user.followers),version=2)} \n🤩*Following*🤩: {es(str(user.followees),version=2)}\
+        \n🧐*Account Type*🧐: {acc_type(user.is_private)} \n\nMathy monu nirthy pokko Thenkss 😀😀'''
 
     return caption_msg
 
@@ -39,4 +39,4 @@ def get_username(url):
 
 
 ratingkey = [[InlineKeyboardButton(
-    "⚠️Ivide click cheyyaruth⚠️", url="https://t.me/SJ_HSK_bots")]]
+    "⚠️click cheyyaruth⚠️", url="https://t.me/SJ_HSK_bots")]]
